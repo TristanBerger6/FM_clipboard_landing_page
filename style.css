@@ -268,7 +268,7 @@ header p:not(:first-child){
 
 footer{
     background-color: rgb(245,246,248);
-    height: 150px;
+    height: 200px;
 }
 
 .flex_footer{
@@ -426,7 +426,7 @@ footer{
     }
 
     footer{
-        height : auto;
+        height : 550px;
     }
     
     .logo_c{
