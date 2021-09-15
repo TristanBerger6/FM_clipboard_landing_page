@@ -1,0 +1,463 @@
+/***********************************************/
+/**************** GENERAL **************************/
+/***********************************************/
+
+body{
+    width :100%;
+    margin : 0;
+    font-size : 16px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background : url(./images/bg-header-desktop.png) no-repeat;
+    background-position : top;
+    color: hsl(201, 11%, 66%);
+}
+
+h1, h2 , b{
+    color : hsl(210, 10%, 33%);
+}
+h2{
+    font-size: 2.2em;
+}
+
+b{
+    font-size : 1.45em;
+}
+
+
+/***********************************************/
+/**************** HEADER **************************/
+/***********************************************/
+
+header{
+    text-align: center;
+    margin-top : 130px;
+}
+
+h1{
+    font-size: 2.7em;
+    margin-top: 54px;
+    margin-bottom: 1px;  
+}
+
+header p:not(:first-child){
+    display : inline-block;
+    width : 47%;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height : 28px;
+    margin-bottom: 50px;
+}
+
+.flex_download{
+    display:flex; 
+    justify-content : center;
+}
+
+.flex_download a{
+    display: inline-block;
+    color : white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width : 227px;
+    border-radius: 30px;
+    text-shadow: 0px 0px 2px white;
+    
+   
+   
+}
+
+
+.download_ios a{
+    background-color:hsl(171, 66%, 44%) ;
+    margin-right: 7px;
+    box-shadow: 0px 3px 0px hsl(170, 66%, 18%,0.7);
+}
+.download_mac a{
+    background-color:hsl(233, 100%, 69%);
+    margin-left: 9px;
+    box-shadow: 0px 3px 0px hsl(233, 44%, 31%,0.8);
+}
+
+.download_ios a:hover{
+    background-color:hsl(171, 66%, 44%, 0.7);
+}
+
+.download_mac a:hover{
+    background-color:hsl(233, 100%, 69%,0.7);
+}
+/***********************************************/
+/**************** MAIN **************************/
+/***********************************************/
+
+/****** SECTION 1 **********/
+
+
+.keep_track_head{
+    text-align: center;
+    margin-top : 141px;
+}
+
+.keep_track_head h2{
+    margin-bottom : 1px;
+}
+.keep_track_head p{
+    display: inline-block;
+    font-size: 1.15em;
+    width : 50%;
+    line-height: 30px;
+}
+
+
+.keep_track_flex{
+    display :flex;
+    margin-top: 60px;
+}
+
+.img_computer img{
+    width : 100%;
+    position : relative;
+    left :-30px;
+
+}
+.keep_track_flex_text{
+    width : 24%;
+    margin-left : 5.2%;
+    margin-right : 20px;
+    padding-top :52px;
+}
+
+.keep_track_flex_text p{
+    line-height: 30px;
+    margin-bottom: 62px;
+}
+
+
+/****** SECTION 2 **********/
+
+.access_clipboard{
+    text-align: center;
+    margin-top : 145px;
+}
+
+.access_clipboard h2{
+    margin-bottom: 2px;
+}
+.access_clipboard p{
+    display: inline-block;
+    width : 50%;
+    font-size: 1.15em;
+    line-height: 28px;
+    margin-bottom: 100px;
+}
+.img_devices img{
+    max-width :100%;
+    height :auto;
+}
+
+
+/****** SECTION 3 **********/
+
+.supercharge_workflow_head{
+    text-align: center;
+    margin-top: 65px;
+}
+.supercharge_workflow_head p{
+    font-size: 1.15em;
+}
+
+.grid_tools{
+    width : 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+    text-align: center;
+
+    display : grid;
+    grid-template-columns: 3fr 2fr 1fr 3fr 1fr 2fr 3fr;
+    grid-template-rows: 80px 200px 290px;
+    grid-template-areas: "img_bl img_bl img_snipp img_snipp img_snipp img_sneak img_sneak"
+    "bl bl snipp snipp snipp sneak sneak" "google ibm ibm micro hp hp vg";
+    justify-items: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.img_blacklists{
+    grid-area : img_bl;
+}
+
+.img_snippets{
+    grid-area : img_snipp;
+}
+
+.img_sneak_preview{
+    grid-area : img_sneak;
+}
+.text_blacklists{
+    grid-area: bl;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+.text_snippets{
+    grid-area: snipp;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+.text_sneak_preview{
+    grid-area: sneak;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+.img_google{
+    grid-area: google;
+}
+.img_IBM{
+    grid-area: ibm;
+}
+.img_Microsoft{
+    grid-area: micro;
+}
+.img_Hewlett{
+    grid-area: hp;
+}
+.img_Vector_Graphics{
+    grid-area: vg;
+}
+
+.grid_tools p{
+    display: inline-block;
+    width : 90%;
+    line-height: 30px;
+}
+.grid_tools b{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.grid_tools>div>img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/****** SECTION 4 **********/
+ 
+.clipboard_download{
+    text-align: center;
+    margin-top: 40px;
+}
+.clipboard_download h2{
+    margin-bottom: 2px;
+}
+.clipboard_download>p{
+    display: inline-block;
+    font-size: 1.15em;
+    width :50%;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+/***********************************************/
+/**************** FOOTER **************************/
+/***********************************************/
+
+footer{
+    background-color: rgb(245,246,248);
+    height: 150px;
+}
+
+.flex_footer{
+    display : flex;
+    margin-top: 125px;
+    padding-top: 42px;
+}
+
+.logo_c{
+    flex : 24.35;
+}
+.logo_c img{  
+    max-width: 15%;
+    margin-left: 47%;
+}
+.footer_list{
+    color :  hsl(210, 10%, 33%);
+    font-size: 1.15em;
+    flex : 55.85;
+
+    display : grid;
+    grid-template-columns: 2.4fr 2.4fr 5.2fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 15px;
+
+}
+.footer_list p{
+    padding: 0;
+    margin:0;
+    margin-bottom: 15px;
+}
+.social_m{
+    flex : 19.8;
+    padding-top: 20px;
+}
+.social_m img:nth-last-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.attribution{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.attribution a{
+    color : hsl(210, 10%, 33%);
+}
+
+
+@media all and (min-width : 1440px )
+{
+    body{
+        background-size: 100%;
+    }
+}
+
+@media all and (max-width : 1000px )
+{
+    h2{
+        font-size: 1.8em;
+    }
+    body{
+        background: url(./images/bg-header-mobile.png) no-repeat;
+        background-color: white;
+        background-size: 100%;
+    }
+    header h1{
+        display: inline-block;
+        width: 90%;
+        font-size: 2em;
+        margin-top: 44px;
+
+    }
+    header p:not(:first-child){
+        width : 78%;
+        font-size: 0.95em;
+        margin-bottom: 42px;
+    }
+    .flex_download{
+        flex-direction: column;
+        justify-content: space-between;
+        height : 135px;
+    }
+
+    .flex_download a{
+        margin-right: 0px;
+        margin-left: 0px;
+        width : 82%;
+        max-width: 500px;
+    }
+
+    .keep_track{
+        margin-top : 161px;
+    }
+    .keep_track_head p{
+        width : 78%;
+        font-size: 0.95em;
+    }
+
+    .keep_track_flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img_computer{
+        text-align: center;
+    }
+    .keep_track_flex img{
+        width : 80%;
+        position: initial;
+    }
+
+    .keep_track_flex_text{
+        width : 80%;
+        margin-left : initial;
+        margin-right : initial;
+        text-align: center;
+    }
+
+    .access_clipboard p{
+        width : 80%;
+        font-size: 0.95em;
+        margin-bottom: 50px;
+    }
+
+    .supercharge_workflow_head h2{
+        display: inline-block;
+        width : 80%;
+        margin-bottom: 0px;
+    }
+    .supercharge_workflow_head p{
+        display: inline-block;
+        font-size: 0.95em;
+        width : 80%;
+    }
+    .grid_tools{
+        margin-top: 65px;
+        text-align: center;
+    
+        grid-template-columns: 1fr;
+        grid-template-rows: 87px 174px 87px 174px 87px 225px repeat(5, 100px);
+        grid-template-areas: "img_bl" "bl" "img_snipp" "snipp" "img_sneak" "sneak"
+        "google" "ibm" "micro" "hp" "vg";
+    }
+
+    .clipboard_download h2{
+        display: inline-block;
+        margin-bottom: 0px;
+        width :85%;
+    }
+    .clipboard_download>p{
+        font-size: 0.95em;
+        width :77.5%;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        height : auto;
+    }
+    
+    .logo_c{
+        text-align: center;
+    }
+    .logo_c img{
+        max-width: 45%;
+        margin: 0;
+    }
+    .flex_footer{
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_list{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .footer_list p{
+        margin-bottom: 30px;
+    }
+    .social_m img:nth-last-child(2)
+    {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+
+
+    
+ 
+}
